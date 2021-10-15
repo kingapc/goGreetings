@@ -9,3 +9,8 @@ func Hello(name string, lastname string) string {
 	addition = message + fmt.Sprintf("to your first go code %v", lastname)
 	return addition
 }
+
+func Age(year int) int {
+	age := 2021 - year
+	return age
+}
